@@ -25,7 +25,7 @@ if (greeting2==="formal") {
 if (greeting1<54) {
     var result1 = "a coat";
 }
-else if ((greeting1>54) && (tempFahr<70)) {
+else if ((greeting1>54) && (greeting1<70)) {
     var result1 = "a jacket";
 }
 else if (greeting1>70) {
@@ -33,4 +33,7 @@ else if (greeting1>70) {
 }
 
 
-alert("Since it is " + greeting1  + " degrees and you are going to a " + greeting2 + " event, you should wear " + result2 + " and " + result1 + ".");
+console.log("Since it is " + greeting1  + " degrees and you are going to a " + greeting2 + " event, you should wear " + result2 + " and " + result1 + ".");
+
+
+// alert("Since it is " + greeting1  + " degrees and you are going to a " + greeting2 + " event, you should wear " + result2 + " and " + result1 + ".");
